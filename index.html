@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meghana K V - Portfolio</title>
+  <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <h1 class="logo">My Portfolio</h1>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">☰</div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm <span>Meghana K V</span></h2>
+      <p>Java Full Stack Developer</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about container">
+    <h2>About Me</h2>
+    <p>
+      I am a dedicated and hardworking Java Full Stack Developer, recently graduated in
+      Computer Science and Engineering, Yelahanka Bengaluru, with a CGPA of 8.62.
+      I have strong expertise in frontend and backend technologies, and I am passionate about building
+      scalable, user-friendly, and impactful web applications. My goal is to apply my skills in a
+      professional environment while continuously learning and growing.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills container">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>Programming Languages</h3>
+        <p>Java, Python, SQL</p>
+      </div>
+      <div class="skill-category">
+        <h3>Frontend Technologies</h3>
+        <p>HTML, CSS, JavaScript, ReactJS</p>
+      </div>
+      <div class="skill-category">
+        <h3>Backend & Frameworks</h3>
+        <p>Spring, Spring Boot, Hibernate, JPA, JSP, Servlets</p>
+      </div>
+      <div class="skill-category">
+        <h3>Database & Tools</h3>
+        <p>MySQL</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="experience container">
+    <h2>Experience</h2>
+    <div class="experience-card">
+      <h3>Full Stack Developer Intern - Dhee-Coding Lab</h3>
+      <p><strong>Feb 2025 - Present</strong></p>
+      <p>
+        Working as a Full Stack Developer Intern where I contribute to building and maintaining
+        web applications. My role includes working with Java, Spring Boot, JSP, and MySQL
+        for backend logic, while using HTML, CSS, JavaScript, and ReactJS for frontend development.
+        This internship has enhanced my problem-solving skills and given me real-time industry exposure.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects container">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Student Management System</h3>
+        <p>
+          Description: A web-based application that allows easy management of student records.<br>
+          Technologies Used: HTML, CSS, Hibernate, JSP, Servlets.
+        </p>
+      </div>
+      <div class="project-card">
+        <h3>Trendscout Clothing Recommender System</h3>
+        <p>
+          Developed a clothing recommendation system using Python, machine learning, and user preference data.
+          Deployed as a web app using Flask and integrated with HTML, CSS, and JavaScript.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact container">
+    <h2>Contact</h2>
+    <p>📞 +91 8217504205</p>
+    <p>📧 meghavishnu76@gmail.com</p>
+    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/meghana-k-v/" target="_blank">linkedin.com/in/meghana-k-v</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Meghana K V. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const menu = document.getElementById("mobile-menu");
+    const navLinks = document.querySelector(".nav-links");
+    menu.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
